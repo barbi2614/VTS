@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title></title>
+    <style>
+        body {
+            position: relative;
+            background-color: #E2BA6F;
+        }
+
+        .section {
+            padding: 70px 50px;
+        }
+
+        #section1{
+            background-color: #000;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .navbar{
+            background-color: #000;
+        }
+        .btn{
+            background-color: #E2BA6F;
+            border-radius: 0;
+        }
+        #section2 {
+            background-image: url("images/pic2.jpg");
+            padding: 120px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            text-align: center;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*:root {*/
+        /*    --animate-delay: 2s;*/
+        /*}*/
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="container-fluid justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="70" height="55" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Kezdőoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Asztalfoglalás</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Menü</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Section1 -->
+<div id="section1" class="container-fluid section text-white">
+    <!-- Part 1 -->
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-6 ml-2 mb-4">
+            <img src="images/pic1.jpg" alt="restaurant" class="img-fluid">
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-4">
+            <h1 class="text-white">About Me</h1>
+            </div>
+            <form action="">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-default btn-lg">ASZTALFOGLALÁS</button>
+                <button type="submit" class="btn btn-default btn-lg">MENÜ</button>
+                </div>
+            </form>
+            <br>
+            <p class="fs-5 mb-5">
+                Nullam placerat leo sit amet magna bibendum dapibus. Quisque tempor tortor porta nisi dignissim dapibus.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In vitae
+                tortor eget
+                neque imperdiet ornare. Vivamus suscipit scelerisque dapibus. In elementum laoreet nulla at porttitor.
+                Donec
+                ullamcorper ante eget dolor posuere porta.
+            </p>
+        </div>
+    </div>
+    <!-- Part 2 -->
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-6">
+                <p class="fs-5">Fusce id suscipit nunc, non molestie urna. Quisque faucibus tempus tellus. Fusce nec augue ut est pulvinar hendrerit. Morbi fringilla hendrerit lacus a sagittis. Nulla nulla ex, auctor vel leo vel, aliquet efficitur libero. Donec aliquet nunc lectus, ut aliquam turpis congue quis. Nulla enim urna, feugiat id vehicula ut, porta sed libero. Donec vestibulum laoreet augue eu vulputate. Ut fringilla odio lectus, et ultricies lectus finibus gravida. Ut elementum, turpis nec consequat gravida, lacus nisi pulvinar ante, laoreet faucibus nunc est sed urna. Morbi luctus arcu non sapien tempor eleifend. Aenean mauris tortor, condimentum auctor cursus eu, dignissim sit amet neque. Cras iaculis luctus ante in viverra. Suspendisse lacus ligula, accumsan non tellus eu, viverra auctor eros. Donec at purus gravida, pharetra lacus et, luctus nunc. Sed at risus non massa posuere porttitor.</p>
+            <p>Nunc in diam vel magna egestas accumsan vitae in mauris. Mauris lacinia, nunc in lobortis posuere, diam ex tristique magna, eu vulputate diam enim sed dui. Integer blandit libero vitae nunc hendrerit porta et id metus. Pellentesque sollicitudin neque a lacus lacinia egestas. Cras eget consectetur elit. Nulla eu ligula sed risus commodo malesuada. Sed sed tellus ac tortor sollicitudin iaculis.</p>
+            </div>
+        <div class="col-12 col-lg-6">
+            <img src="images/pic3.jpg" alt="restaurant" class="img-fluid center-block">
+        </div>
+    </div>
+</div>
+
+<!-- Section 2 -->
+<div id="section2" class="container-fluid bg-black text-white">
+    <div class="row align-items-center">
+        <div class="col-12 p-5">
+    <h1>Fedezd fel világunkat</h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- Section 3 -->
+<div id="section3" class="container-fluid bg-black section text-white">
+<div class="row align-items-center">
+    <div class="col-12 col-lg-6">
+        <p class="fs-5">Fusce id suscipit nunc, non molestie urna. Quisque faucibus tempus tellus. Fusce nec augue ut est pulvinar hendrerit. Morbi fringilla hendrerit lacus a sagittis. Nulla nulla ex, auctor vel leo vel, aliquet efficitur libero. Donec aliquet nunc lectus, ut aliquam turpis congue quis. Nulla enim urna, feugiat id vehicula ut, porta sed libero. Donec vestibulum laoreet augue eu vulputate. Ut fringilla odio lectus, et ultricies lectus finibus gravida. Ut elementum, turpis nec consequat gravida, lacus nisi pulvinar ante, laoreet faucibus nunc est sed urna. Morbi luctus arcu non sapien tempor eleifend. Aenean mauris tortor, condimentum auctor cursus eu, dignissim sit amet neque. Cras iaculis luctus ante in viverra. Suspendisse lacus ligula, accumsan non tellus eu, viverra auctor eros. Donec at purus gravida, pharetra lacus et, luctus nunc. Sed at risus non massa posuere porttitor.</p>
+        <p>Nunc in diam vel magna egestas accumsan vitae in mauris. Mauris lacinia, nunc in lobortis posuere, diam ex tristique magna, eu vulputate diam enim sed dui. Integer blandit libero vitae nunc hendrerit porta et id metus. Pellentesque sollicitudin neque a lacus lacinia egestas. Cras eget consectetur elit. Nulla eu ligula sed risus commodo malesuada. Sed sed tellus ac tortor sollicitudin iaculis.</p>
+    </div>
+    <div class="col-12 col-lg-6">
+        <img src="images/pic4.jpg" alt="restaurant" class="img-fluid animate__animated animate__fadeInLeft animate__delay-5s 5s">
+    </div>
+</div>
+</div>
+
+<!-- Footer -->
+<div id="section4" class="container-fluid text-white">
+<footer class="text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3">
+        © 2024 Copyright:
+        <p class="text-body">LegalAlien</p>
+    </div>
+    <!-- Copyright -->
+</footer>
+    <div>
+</body>
+</html>
